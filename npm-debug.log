@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'star', 'server.js', '8000' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 error Error: Must be logged in to star/unstar packages
+5 error     at RegClient.star (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/star.js:5:45)
+5 error     at /usr/lib/node_modules/npm/lib/star.js:28:14
+5 error     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+5 error     at Array.forEach (native)
+5 error     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+5 error     at Array.forEach (native)
+5 error     at asyncMap (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+5 error     at EventEmitter.star (/usr/lib/node_modules/npm/lib/star.js:26:3)
+5 error     at Object.commandCache.(anonymous function) (/usr/lib/node_modules/npm/lib/npm.js:221:11)
+5 error     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/bin/npm-cli.js:83:28)
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Linux 3.13.0-32-generic
+8 error command "/usr/bin/node" "/usr/bin/npm" "star" "server.js" "8000"
+9 error cwd /home/jesus/Desktop/Git/oy-trending/trending
+10 error node -v v0.10.33
+11 error npm -v 1.4.28
+12 verbose exit [ 1, true ]

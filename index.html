@@ -1,0 +1,31 @@
+<!Doctype html>
+<html ng-app="customersApp">
+  <head>
+    <title>angular js using directives</title>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/animations.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li><a href="#/customers">Customers</a></li>
+          <li><a href="#/orders">Orders</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--piston-->
+    <div ng-view class="slide-animation"></div>
+    <!--piston-->
+    <script language="JavaScript" type="text/javascript" src="lib/angular.js"></script>
+    <script type="text/javascript" src="lib/angular-route.js"></script>
+    <script type="text/javascript" src="lib/angular-animate.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script language="JavaScript" type="text/javascript" src="controllers/customersController.js"></script>
+    <script language="JavaScript" type="text/javascript" src="controllers/ordersController.js"></script>
+    <script type="text/javascript" src="services/customersFactory.js"></script>
+    <script type="text/javascript" src="controllers/allOrdersController.js"></script>
+    <!--<script type="text/javascript" src="services/customersService.js"></script>-->
+  </body>
+</html>
